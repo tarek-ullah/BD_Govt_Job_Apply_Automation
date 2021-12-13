@@ -29,12 +29,12 @@ search_bar.send_keys("H. M. TAREK ULLAH")
 # Fathers name fill in 
 search_bar_father =  driver.find_element_by_xpath("//input[@id='persoanl_info_fathers_name']")
 search_bar_father.clear()
-search_bar_father.send_keys("MD. ABDUL MALEK")
+search_bar_father.send_keys("Father's Name")
 
 # Mothers name fill in 
 search_bar_mother = driver.find_element_by_xpath("//input[@id='persoanl_info_mothers_name']")
 search_bar_mother.clear()
-search_bar_mother.send_keys("TAHMINA KHATUN")
+search_bar_mother.send_keys("Mother's Name")
 search_bar_mother.send_keys(Keys.RETURN)("")
 print(driver.current_url)
 driver.close()
